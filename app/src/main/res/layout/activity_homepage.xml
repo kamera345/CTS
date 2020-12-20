@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/day"
+    android:orientation="vertical"
+    android:paddingStart="5dp"
+    android:paddingLeft="5dp"
+    android:paddingTop="8dp"
+    android:scrollbarSize="4dp"
+    tools:context=".Homepage"
+    tools:ignore="RtlSymmetry">
+
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawablePadding="10dp"
+        android:fontFamily="sans-serif"
+        android:paddingStart="15dp"
+        android:paddingLeft="200dp"
+        android:paddingTop="5dp"
+        android:text=" \n STAY HOME STAY SAFE   \n"
+        android:textAllCaps="true"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textColor="#E8E0E0"
+        android:textStyle="italic"
+        app:drawableLeftCompat="@drawable/homeicon"
+
+        tools:ignore="HardcodedText,RtlSymmetry" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="match_parent"
+        android:layout_height="124dp"
+        android:fontFamily="sans-serif-black"
+        android:gravity="center|start"
+        android:paddingStart="10dp"
+        android:paddingLeft="40dp"
+        android:paddingTop="10dp"
+        android:textAllCaps="true"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textColor="#EFEAEA"
+        app:drawableLeftCompat="@drawable/usericon"
+        tools:ignore="RtlSymmetry" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="275dp"
+        android:layout_height="64dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="20dp"
+        android:text="COVID-19 STATUS:"
+        app:cornerRadius="10dp"
+        tools:ignore="HardcodedText" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:fontFamily="sans-serif-black"
+        android:gravity="center|start"
+        android:paddingStart="80dp"
+        android:paddingLeft="80dp"
+        android:paddingTop="15dp"
+        android:textAllCaps="true"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        android:textColor="#370202"
+        app:drawableLeftCompat="@drawable/statusicon"
+        tools:ignore="RtlSymmetry" />
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="196dp"
+        android:animateLayoutChanges="true"
+        android:columnCount="1"
+        android:rowCount="1">
+
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="match_parent"
+            android:layout_height="63dp"
+            android:cursorVisible="true"
+            android:paddingStart="10dp"
+            android:paddingLeft="10dp"
+            android:paddingTop="10dp"
+            android:shadowRadius="2"
+            android:text=""
+            android:textAllCaps="true"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:textColor="#EFEDED"
+            android:textColorHint="#EDE8E8"
+            android:textStyle="bold"
+            tools:ignore="RtlSymmetry,TextViewEdits" />
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="200dp"
+            android:layout_height="64dp"
+            android:layout_marginStart="100dp"
+            android:layout_marginLeft="75dp"
+            android:text="Refresh"
+            tools:ignore="HardcodedText"
+            app:cornerRadius="20dp"/>
+    </GridLayout>
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="400dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginRight="5dp"
+        android:paddingTop="5dp"
+        android:textAllCaps="true"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textColor="#F3EBEB"
+        android:visibility="invisible" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="398dp"
+        android:layout_height="38dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="2dp"
+        android:paddingTop="3dp"
+        android:textAllCaps="true"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textColor="#F4EBEB"
+        android:visibility="invisible" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="match_parent"
+        android:layout_height="39dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginRight="5dp"
+        android:paddingTop="4dp"
+        android:textAllCaps="true"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textColor="#F8F0F0"
+        android:visibility="invisible" />
+
+</LinearLayout>

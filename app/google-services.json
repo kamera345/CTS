@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "848529284498",
+    "project_id": "covid-care-203d2",
+    "storage_bucket": "covid-care-203d2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:848529284498:android:f54d4531ba09ffeae2754b",
+        "android_client_info": {
+          "package_name": "com.example.cts"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "848529284498-23fgnimt2cvdveain28jlne0eiqlfpnc.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.cts",
+            "certificate_hash": "9064e93ca13ba4abcac5f336c0be6fb2c31ec40d"
+          }
+        },
+        {
+          "client_id": "848529284498-n6pvsiod84o696n9ivmtukfcpp02ishk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBBSWvaukmBKszyGAWFWZGsBKKMS2FFkMY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "848529284498-n6pvsiod84o696n9ivmtukfcpp02ishk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
